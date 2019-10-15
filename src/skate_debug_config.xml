@@ -1,0 +1,13 @@
+<xml>
+	<!--日志输出模式，0-不输出，1-单独控制台输出，2-跟随应用日志配置一同输出-->
+	<log_mode>2</log_mode>
+	<!--日志输出级别，可选值：DEBUG,INFO,WARN,ERROR-->
+	<log_level>DEBUG</log_level>
+	<!--强制日志输出-->
+	<force_log>TCPCommunication|OkHttpCommunication</force_log>
+	<!--是否自动保存报文，默认为false-->
+	<auto_save_msg>false</auto_save_msg>
+	<!--是否离线调试模式，默认为false-->
+	<offline_debug>false</offline_debug>
+</xml>
+
